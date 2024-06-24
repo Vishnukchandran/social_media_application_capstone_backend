@@ -9,7 +9,7 @@ This README provides documentation of a backend of a Social media application.
 If you're working with a Git repository, clone it to your local machine using Git commands or download the source code as a ZIP file and extract it to a local directory. Command to clone the repository on the command prompt.
 
 ```
-git clone
+git clone https://github.com/Vishnukchandran/social_media_application_capstone_backend.git
 ```
 
 Navigate to the downloaded folder and open the terminal or command prompt on the same folder path, type
@@ -57,5 +57,3 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ### 7.Credits
 
 Created by VishnuKChandran.
-
-
