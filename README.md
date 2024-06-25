@@ -4,6 +4,12 @@
 
 This README provides documentation of a backend of a Social media application.
 
+API's:
+- Register: https://sokialbook.netlify.app/
+- Login: https://sokialbook.netlify.app/
+- Homepage: https://sokialbook.netlify.app/home
+- Profile: https://sokialbook.netlify.app/profile/
+
 ### 2.Clone the Repository
 
 If you're working with a Git repository, clone it to your local machine using Git commands or download the source code as a ZIP file and extract it to a local directory. Command to clone the repository on the command prompt.
