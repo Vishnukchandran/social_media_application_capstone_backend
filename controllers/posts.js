@@ -74,8 +74,16 @@ export const postComment = async (req, res) => {
     const { id } = req.params;
     const { userId, comment } = req.body;
 
+    const user = await User.findById(userId);
     const post = await Post.findById(id);
-    post.comments.push({ userId, comment });
+
+    const commentData = {
+      userId,
+      comment,
+      userPicturePath: user.picturePath,
+    };
+
+    post.comments.push(commentData);
 
     const updatedPost = await post.save();
     res.status(200).json(updatedPost);
